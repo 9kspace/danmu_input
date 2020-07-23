@@ -1,0 +1,4 @@
+redis
+pynsq
+google
+aiohttp

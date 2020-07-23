@@ -8,7 +8,7 @@ from .huya import Huya
 from .kuaishou import KuaiShou
 from .huomao import HuoMao
 from .egame import eGame
-from .huajiao import HuaJiao
+# from .huajiao import HuaJiao
 from .inke import Inke
 from .cc import CC
 
@@ -34,7 +34,7 @@ class DanmakuClient:
                      'huomao.com': HuoMao,
                      'kuaishou.com': KuaiShou,
                      'egame.qq.com': eGame,
-                     'huajiao.com': HuaJiao,
+                     # 'huajiao.com': HuaJiao,
                      'inke.cn': Inke,
                      'cc.163.com': CC}.items():
             if re.match(r'^(?:http[s]?://)?.*?%s/(.+?)$' % u, url):

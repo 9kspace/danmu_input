@@ -20,7 +20,8 @@ async def main(url):
     await dmc.start()
 
 
-a = input('请输入直播间地址：\n')
+# TODO use config file
+a = "https://live.bilibili.com/462"
 asyncio.run(main(a))
 
 # 虎牙：https://www.huya.com/11352915
